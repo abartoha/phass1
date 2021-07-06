@@ -1,0 +1,176 @@
+body{
+    font-family: 'consolas', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 70px;
+}
+h3{
+    font-size: 50px;
+}
+h4{
+    font-size: 30px;
+}
+.cornblue{
+    color: cornflowerblue;
+    text-shadow:1px 1px magenta;
+}
+.shadow{
+    color:blue;
+    text-shadow:2px 2px blueviolet;
+}
+.bleach{
+    color:teal;
+    text-shadow: 40% 40% violet;
+}
+.flex-box{
+    display: flex;
+    margin: 100px 0px 100px 0px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+.third-width{
+    width: 33%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.third-width h2{
+    margin-bottom:1%;
+}
+.third-width h4{
+    margin-top:1%;
+    margin-bottom:10%;
+}
+.button{
+    background-image: linear-gradient(to right,indigo, navy);
+    color: rgb(208, 177, 229);
+    font-weight: 650;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 15px 40px;
+}
+.emergency{
+    transform:scale(70%);
+}
+.emergency img{
+    transform: translateY(139px);
+}
+
+.big-text p{
+    font-size:24px;
+}
+
+.emergency p{
+    color:grey;
+}
+
+.about{
+    background-image: url(img/shapes/royal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+.about h2{
+    color:grey;
+}
+.recipes-item{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 40px black;
+    text-decoration: none;
+    color:black;
+}
+footer{
+    background-image: linear-gradient(navy,black);
+    
+}
+
+footer h4{
+    padding:30px 0px 0px 0px;
+    color: grey;
+    text-align: center;
+}
+footer p{
+    padding:10px 20px 100px 30px;
+    margin: 0px;
+    color:grey;
+    text-align:center;
+}
+.rec{
+    color:grey;
+    text-align:center;
+}
+.rec-pic{
+    width: 100%;
+}
+
+.button-container{
+    padding: 40px 40px 40px 0px;
+}
+
+.intro-container{
+    margin-left: 10%;
+}
+.gap{
+    padding:20px 20px;
+}
+.intro h1{
+    padding-top: 10%;
+}
+
+.about h2{
+    padding-top: 20%;
+}
+
+nav ul {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    text-shadow:1px 1px fuchsia;
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    font-size:20px;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+    background-color: skyblue;
+  }
+
+.facebook{
+    text-decoration: none;
+    color: grey;
+}
